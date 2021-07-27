@@ -3,6 +3,7 @@
 body{
   margin: 0px;
   padding: 0px;
+  
 }
 .head-bg{
   background-color: #faf6fb;
@@ -118,7 +119,21 @@ body{
     background-color: rgb(34, 34, 34) !important;
     cursor: pointer;
     color: white;
+    
   }
+  .hover-card:hover img{
+    transform: scale(1.2);
+    transition: 1.5s;
+  }
+  .courses{
+    margin-top: 100px;
+  }
+  .courses-bg{
+    background-color: #faf6fb ;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
   
   @media only screen and (max-width: 780px) {
     .nav-items{
@@ -132,6 +147,7 @@ body{
         display: inline-block;
     }
   }
+  
  
  
     
