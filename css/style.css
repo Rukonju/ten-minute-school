@@ -1,7 +1,12 @@
 
 
-
-
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.head-bg{
+  background-color: #faf6fb;
+}
   .nav-btn {
     background-color: transparent;
     color: black;
@@ -106,6 +111,15 @@
   .ham-menu:hover a{
       color: white;
   }
+  .flex-direction-column{
+    flex-direction: column;
+  }
+  .hover-card:hover{
+    background-color: rgb(34, 34, 34) !important;
+    cursor: pointer;
+    color: white;
+  }
+  
   @media only screen and (max-width: 780px) {
     .nav-items{
         display: none;
