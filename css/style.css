@@ -1,54 +1,27 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Hind+Siliguri:wght@500&display=swap');
+*{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.nav-position{
+  z-index: 1000;
+  position: fixed;
+  top: 0px;
+  right: 103px;
+}
 body{
   margin: 0px;
-  padding: 0px; 
+  padding: 0px;
+  font-family: 'Hind Siliguri', sans-serif; 
+  font-family: 'Bree Serif', serif;
 }
-.dropdown-content {
-  display: none;
-  min-width: 220px;  
+.head-container{
+  margin-top: 80px;
+  border-radius: 10px;
 }
-.dropdown-content a:hover,.nav-links a:hover {
-  color: white;
-  border-radius: 5px;
-  background-color: #ff0000  
-} 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.dropdown:hover .nav-btn{
-    color: white;
-    background-color: #ff0000;
-    border-radius: 5px;
-}
-  .dropdown:hover .dropbtn {
-    background-color: #ff0000;
-    border-radius: 5px;
-  }
-  .login-btn:hover{
-      background-color: white !important ;
-      color: black !important;
-      font-weight: 700px;
-  }
-  .ham-menu{
-      display: none;
-      
-      border: 2px solid black;
 
-  }
-  .ham-menu a{
-      display: inline-block;
-      color: black;
-      font-weight: 700px;
-      padding: 5px;
-  }
-  .ham-menu:hover{
-      background-color: rgb(65, 63, 63);
-      color: white;
-  }
-  .ham-menu:hover a{
-      color: white;
-  }
   .flex-direction-column{
     flex-direction: column;
   }
@@ -59,8 +32,8 @@ body{
     
   }
   .hover-card:hover img{
-    transform: scale(1.2);
-    transition: 1.5s;
+    transform: scale(1.1);
+    transition: 1s;
   }
   
   .courses-bg{
@@ -78,19 +51,114 @@ body{
   .opacity-100{
     opacity: 1;
   }
-  
-  @media only screen and (max-width: 780px) {
-    .nav-items{
-        display: none;
-
-    }
-    .login-btn{
-        display: none;
-    }
-    .ham-menu{
-        display: inline-block;
-    }
+  .nav-links {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 10px;
+    
   }
+   .nav-links:hover  {
+    color: white;
+    background-color: #ff284f;
+    border-radius: 5px;
+
+  }
+  .nav-links-container{
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .navbar-position{
+    margin: 0px 60px;
+  }
+  .login-btn{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    display: inline-block;
+    padding: 10px 12px;
+    border:2px solid black;
+    border-radius: 5px;
+  }
+  .login-btn:hover{
+    background-color: white;
+    color: black;
+  }
+  .dropdown-item{
+    margin: 5px;
+    display: inline-block;
+    border-radius: 3px;
+    width: auto;
+  }
+  .dropdown-item:hover{
+    color: white;
+    background-color:#ff284f ;
+  }
+  .join-btn{
+    border: 2px solid #38bc74;
+    background-color:#38bc74 ;
+    font-weight: 700;
+  }
+  .join-btn:hover{
+    background-color: white;
+    color: #38bc74;
+    
+  }
+  .store-link{
+    font-weight: 700 ;
+  }
+  .store-link:hover{
+    color: #ff284f ;
+  }
+  .app-link{
+    background-color:#ff284f ;
+    border: 2px solid #ff284f;
+    font-weight: 700px;
+  }
+  .app-link:hover{
+    color: #ff284f;
+    background-color: white;
+  }
+  .card-animation{
+    box-shadow: 0px 5px 25px gray;
+    border-radius: 5px;
+  }
+  .card-animation:hover{
+    transform: scale(1.2);
+    transition: 1s;
+  }
+  .numaric-info{
+    font-size:.8rem;
+  }
+  .feature-link{
+    color: white;
+    display: inline-block;
+    border: 2px solid #ff284f;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ff284f;
+  }
+  .feature-link:hover{
+    color: #ff284f;
+    background-color: white;
+  }
+  .footer-bg a{
+    color: gainsboro !important;
+  }
+  .footer-bg a:hover{
+    color: rgb(255, 255, 255) !important;
+  }
+  .bi-facebook, .bi-instagram, .bi-youtube, .bi-linkedin{
+    display: inline-block;
+    color: rgb(190, 190, 190);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 2px;
+  }
+  .bi-facebook:hover, .bi-instagram:hover, .bi-linkedin:hover, .bi-youtube:hover{
+    color:#ff284f ;
+  }
+  
   
  
  
